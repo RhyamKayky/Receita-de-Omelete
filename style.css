@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;600;700&display=swap');
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    src: url('caminho/para/Outfit-Regular.woff2') format('woff2'),
+         url('caminho/para/Outfit-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    src: url('caminho/para/Outfit-Medium.woff2') format('woff2'),
+         url('caminho/para/Outfit-Medium.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    src: url('caminho/para/Outfit-Bold.woff2') format('woff2'),
+         url('caminho/para/Outfit-Bold.woff') format('woff'); 
+}
+
+body {
+    background-color: hsl(30, 18%, 87%)
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.quadro {
+    margin-top: 300px;
+    margin-bottom: 300px;
+    width: 630px; 
+    height: 1350px; 
+    background-color: white; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.omelete {
+    border-radius: 10px;
+    width: 445px;
+    height: 200px;
+}
+
+.titulo {
+    font-size: 30px;
+    font-family: 'Young Serif', serif; /* Young Serif como fonte principal */
+    font-weight: 400; /* Peso 400 para Young Serif */
+}
+
+.texto{
+    font-size: 17px;
+    white-space: nowrap;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.preparation {
+    color: hsl(332, 51%, 32%);
+    padding-left: 33px;
+    font-size: 20px;
+}
+
+.preparacao {
+    margin-left: 10px;
+    font-size: 13px;
+}
+.ul {
+    font-size: 15px;
+    
+}
+
+li {
+    padding-left: 10px; 
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.ingredientes {
+    color: hsl(14, 45%, 36%);
+    padding-left: 23px;
+    font-size: 28px;
+}
+
+.ultimo {
+    white-space: nowrap;
+}
+
+hr {
+    text-align: center;
+    border-color: bisque;
+    width: 140%;
+    height: 0.1px;
+    opacity: 30%;
+}
+
+.instrucao {
+    color: hsl(14, 45%, 36%);
+    padding-left: 23px;
+    font-size: 28px;
+}
+
+ol {
+    white-space: nowrap;
+}
+
+.nutrition {
+    color: hsl(14, 45%, 36%);
+    padding-left: 23px;
+    font-size: 28px;
+}
+
+.p2{
+    white-space: nowrap;
+    font-family: 'Outfit', sans-serif;
+    padding-left: 23px;
+}
+p{
+    white-space: nowrap;
+    font-family: 'Outfit', sans-serif;
+    padding-left: 23px;
+}
+
+.jao {
+    color: hsl(14, 45%, 36%);
+}
